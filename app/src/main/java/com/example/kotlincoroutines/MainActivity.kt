@@ -12,18 +12,18 @@ class MainActivity : AppCompatActivity() {
         //Scope -> (Kapsam) Coroutine nerede calisacagini ve yasam dongusunu belirler
 
         //ic ice coroutine
-     /*   runBlocking {
-            launch {
-                delay(5000)
-                println("Run Blocking")
-            }
-            coroutineScope {
-                launch {
-                    delay(3000)
-                    println("Coroutine Scope")
-                }
-            }
-        }*/
+        /*   runBlocking {
+               launch {
+                   delay(5000)
+                   println("Run Blocking")
+               }
+               coroutineScope {
+                   launch {
+                       delay(3000)
+                       println("Coroutine Scope")
+                   }
+               }
+           }*/
 
         //Dispatchers.Main
         runBlocking {
